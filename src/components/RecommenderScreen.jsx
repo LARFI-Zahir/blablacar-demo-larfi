@@ -92,7 +92,7 @@ export default function RecommenderScreen({ drivers, onClose, onConfirmed }) {
           <div className="success-screen__icon">
             <IconCheck />
           </div>
-          <h1 className="success-screen__title">C'est validé !</h1>
+          <h1 className="success-screen__title">Votre coup de pouce est envoyé !</h1>
           <p className="success-screen__text">
             Nous avons envoyé votre demande à la personne sélectionnée. Elle pourra te soutenir lors de ton premier
             trajet.
