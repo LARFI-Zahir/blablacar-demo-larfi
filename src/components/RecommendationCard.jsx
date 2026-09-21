@@ -26,7 +26,7 @@ export default function RecommendationCard({ recommendation, drivers, onRequest 
 
       {recommendation.status === "available" && (
         <button className="pill-btn" onClick={onRequest}>
-          Demander des recommandations
+          Demander un coup de pouce
         </button>
       )}
 
