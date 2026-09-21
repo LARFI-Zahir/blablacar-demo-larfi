@@ -157,7 +157,7 @@
 
 /* Insert card (recommendation CTA) */
 .insert-card {
-  background: var(--blue-light);
+  background: #bfe3fb;
   border-radius: 20px;
   padding: 22px;
   margin-bottom: 16px;
@@ -189,8 +189,8 @@
 
 .pill-btn {
   width: 100%;
-  background: white;
-  color: var(--blue);
+  background: #04629c;
+  color: white;
   border: none;
   border-radius: 999px;
   padding: 14px;
