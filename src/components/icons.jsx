@@ -112,10 +112,13 @@ export function IconPeopleStar(props) {
       <path d="M8 50c0-9.4 7.2-15 16-15s16 5.6 16 15" fill="#3FA9F5" />
       <circle cx="43" cy="16" r="7" fill="#BFE3FB" />
       <path d="M30 42c0-6.6 5.8-11 13-11s13 4.4 13 11" fill="#8FD0F7" />
-      <path
-        d="M48 30l1.8 3.7 4.1.6-3 2.9.7 4.1-3.6-1.9-3.6 1.9.7-4.1-3-2.9 4.1-.6L48 30Z"
-        fill="#FFC93C"
-      />
+      <g transform="translate(37 21) scale(0.9)">
+        <path d="M7 21H4.5a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1H7v10Z" fill="#3FA9F5" />
+        <path
+          d="M7 11l3.2-6.8c.3-.6.9-1 1.6-1 1.2 0 2.1 1.1 1.8 2.3L12.7 9H18a2 2 0 0 1 1.9 2.7l-2.4 6.8a2 2 0 0 1-1.9 1.5H7V11Z"
+          fill="#FFC93C"
+        />
+      </g>
     </svg>
   );
 }
