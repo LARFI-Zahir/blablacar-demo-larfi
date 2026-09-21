@@ -18,7 +18,7 @@ export default function Messagerie({ recommendation, drivers, onAccept, onRefuse
         <div className="message-bubble">
           <div className="message-bubble__title">
             {driver
-              ? `${currentDriver.firstName} vous demande une recommandation`
+              ? `${currentDriver.firstName} vous demande un coup de pouce`
               : `Invitation reçue de ${currentDriver.firstName}`}
           </div>
           <p>
