@@ -56,7 +56,7 @@ export default function App() {
       status: "accepted",
       history: [...r.history, { driverId: r.requestedDriverId, email: r.requestedEmail, result: "accepted" }],
     }));
-    showToast("🔔 Votre recommandation a été acceptée 🎉");
+    showToast("🔔 Votre coup de pouce a été accepté 🎉");
   }
 
   function handleRefuse() {
@@ -66,7 +66,7 @@ export default function App() {
       requestedEmail: null,
       history: [...r.history, { driverId: r.requestedDriverId, email: r.requestedEmail, result: "refused" }],
     }));
-    showToast("🔔 Votre demande de recommandation a été refusée.");
+    showToast("🔔 Votre demande de coup de pouce a été refusée.");
   }
 
   function simulateTripWithPassenger() {
