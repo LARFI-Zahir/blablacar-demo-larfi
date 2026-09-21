@@ -11,7 +11,7 @@ export default function RecommendationCard({ recommendation, drivers, onRequest 
   if (recommendation.status === "accepted") {
     return (
       <p className="already-recommended">
-        <IconThumbUp className="already-recommended__icon" /> Vous êtes déjà recommandé par {displayName}
+        <IconThumbUp className="already-recommended__icon" /> Vous avez déjà un coup de pouce de {displayName}
       </p>
     );
   }
